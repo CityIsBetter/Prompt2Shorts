@@ -1,6 +1,7 @@
 # Prompt2Shorts
 
 **Prompt2Shorts** is an innovative application that generates short-form content by transforming prompts into full scripts, voice-over audio, and relevant videos. Designed for creators who want to quickly produce engaging content, Prompt2Shorts integrates advanced AI and APIs to automate the creation process.
+![screenshot](./public/ss2.png)
 
 ## Features
 
