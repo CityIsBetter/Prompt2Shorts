@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 const HomePage = () => {
@@ -84,9 +85,11 @@ const HomePage = () => {
   };  
 
   return (
-    <div className="min-h-screen bg-gray-200 flex items-center justify-center p-4">
+    <div className="flex-col min-h-screen bg-gray-200 flex items-center justify-center p-4">
+    
       <div className="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg border border-gray-300">
-        <h1 className="text-3xl font-extrabold text-gray-800 mb-6 text-center">Prompt2Shorts</h1>
+        {/* <h1 className="text-3xl font-extrabold text-gray-800 mb-6 text-center">Prompt2Shorts</h1> */}
+        <Image src={"/logo.png"} alt='logo' width={500} height={100} className='mb-6 rounded-lg'/>
         <textarea
           className="w-full p-3 border border-gray-300 rounded-md shadow-sm mb-6 focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={prompt}
